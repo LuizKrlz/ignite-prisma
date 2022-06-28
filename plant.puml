@@ -1,0 +1,19 @@
+@startuml
+
+entity Courses {
+  * id: text <<generated>>
+  --
+  * name: text
+    description: text
+  * created_at: date
+}
+
+entity Modules {
+  * id: text <<generated>>
+  --
+  * name: text
+  description: text
+  * created_at: date
+}
+
+@enduml
